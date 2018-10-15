@@ -2,15 +2,15 @@
 from setuptools import setup
 
 setup(
-    name = 'galaxy-ie-helpers',
-    packages = ['galaxy_ie_helpers'],
-    version = '0.2.2',
-    description = "Helper scripts to work with Galaxy's Interactive Environments",
-    author = 'Bjoern A. Gruening, Eric Rasche',
-    author_email = 'bjoern.gruening@gmail.com',
-    url = 'https://github.com/bgruening/galaxy_ie_helpers',
+    name='galaxy-ie-helpers',
+    packages=['galaxy_ie_helpers'],
+    version='0.2.2',
+    description="Helper scripts to work with Galaxy's Interactive Environments",
+    author='Bjoern A. Gruening, Eric Rasche',
+    author_email='bjoern.gruening@gmail.com',
+    url='https://github.com/bgruening/galaxy_ie_helpers',
     license='LICENSE',
-    keywords = ['Galaxy', 'Interactive Environments'],
+    keywords=['Galaxy', 'Interactive Environments'],
     scripts=['bin/get', 'bin/put'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
